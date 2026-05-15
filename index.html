@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | XUE Zhihan</title>
+
+    <meta
+        name="description"
+        content="AI Engineer Portfolio Website">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+        href="css/style.css">
+
+    <link rel="stylesheet"
+        href="css/components.css">
+
+    <link rel="stylesheet"
+        href="css/animations.css">
+
+    <link rel="stylesheet"
+        href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="custom-cursor"></div>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="container navbar-container">
+
+            <!-- TODO:
+            修改为你的名字或品牌名
+            -->
+            <a href="index.html"
+                class="logo">
+                Xue Zhihan.
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="index.html"
+                    class="nav-link active">
+                    Home
+                </a>
+
+                <a href="works.html"
+                    class="nav-link">
+                    Projects
+                </a>
+
+                <a href="blog.html"
+                    class="nav-link">
+                    Blog
+                </a>
+
+                <a href="profile.html"
+                    class="nav-link">
+                    Profile
+                </a>
+
+                <a href="contact.html"
+                    class="nav-link">
+                    Contact
+                </a>
+
+            </nav>
+
+            <!-- MOBILE MENU BUTTON -->
+            <div class="menu-toggle">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu">
+
+            <a href="index.html">Home</a>
+            <a href="works.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="profile.html">Profile</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <!-- PARTICLE BACKGROUND -->
+        <canvas id="particles-canvas"></canvas>
+
+        <div class="hero-glow"></div>
+
+        <div class="container hero-container">
+
+            <div class="hero-content reveal">
+
+                <p class="hero-tag">
+                    AI LEARNER · JUNIOR DEVELOPER
+                </p>
+
+                <h1 class="hero-title">
+
+                    Building Intelligent
+                    <span>
+                        Visual Experiences
+                    </span>
+
+                </h1>
+
+                <!-- TYPING EFFECT -->
+                <h2 class="typing-text"></h2>
+
+                <p class="hero-description">
+
+                    Computer Vision · Diffusion Models · Full Stack Development
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="works.html"
+                        class="btn-primary">
+
+                        View Projects
+                    </a>
+
+                    <a href="contact.html"
+                        class="btn-secondary">
+
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- HERO IMAGE -->
+            <div class="hero-image reveal">
+
+                <!-- TODO:
+                推荐放置：
+                半身职业照片 / AI感插画 / 深色科技感头像
+
+                推荐尺寸：
+                1000x1200
+
+                文件路径：
+                assets/images/hero/profile.jpg
+                -->
+
+                <img src="assets/images/hero/profile.jpg"
+                    alt="profile image">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <main>
+
+        <!-- ABOUT -->
+        <section class="section container">
+
+            <div class="section-title-wrapper reveal">
+
+                <p class="section-tag">
+                    ABOUT
+                </p>
+
+                <h2 class="section-title">
+                    Researcher & Engineer
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text glass-card reveal">
+                    
+
+                    <div class="about-logo-column">
+
+                        <img src="assets/images/logo/scu.webp"
+                            alt="Sichuan University Logo"
+                            class="about-logo-img">
+
+                        <img src="assets/images/logo/waseda.webp"
+                            alt="Waseda University Logo"
+                            class="about-logo-img">
+
+                        <img src="assets/images/logo/caclogo.png"
+                            alt="CAC Corporation Logo"
+                            class="about-logo-img">
+
+                    </div>
+
+                    <div class="about-text-content">
+
+                        <p>
+
+                            I graduated from the Computer Science departments of 
+                            Sichuan University and Waseda University, 
+                            joined CAC Corporation in 2026, 
+                            and am currently participating in training 
+                            at the Career Development Support Division.
+
+                        </p>
+
+                        <p>
+
+                            My research interests include
+                            LLM Agents,
+                            controllable image generation,
+                            and interactive AI systems.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="about-skills glass-card reveal">
+
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <span>Competent</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>Deep Learning</span>
+                        <span>Competent</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <span>Intermediate</span>
+                    </div>
+
+                    <div class="skill-item">
+                        <span>Web Development</span>
+                        <span>Intermediate</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FEATURED PROJECTS -->
+        <section class="section container">
+
+            <div class="section-title-wrapper reveal">
+
+                <p class="section-tag">
+                    PROJECTS
+                </p>
+
+                <h2 class="section-title">
+                    Featured Work
+                </h2>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJECT CARD -->
+                <article class="project-card glass-card reveal">
+
+                    <!-- TODO:
+                    推荐：
+                    放置项目UI截图或科技风mockup
+
+                    文件路径：
+                    assets/images/works/sample1.png
+                    -->
+
+                    <img src="assets/images/works/sample1.png"
+                        alt="project image">
+
+                    <div class="project-content">
+
+                        <h3>
+                            Diffusion Sketch Generation
+                        </h3>
+
+                        <p>
+
+                            Research project focused on
+                            sketch-to-image generation
+                            using diffusion models.
+
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>Diffusion</span>
+
+                        </div>
+
+                        <div class="project-links">
+
+                            <!-- TODO:
+                            替换为你的 GitHub 仓库链接
+                            -->
+                            <a href="https://github.com/milky245/conditional_sketch2img"
+                                target="_blank">
+
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- PROJECT CARD -->
+                <article class="project-card glass-card reveal">
+
+                    <img src="assets/images/works/sample2.png"
+                        alt="project image">
+
+                    <div class="project-content">
+
+                        <h3>
+                            Java 100 knock Questions
+                        </h3>
+
+                        <p>
+
+                            Collection of 100 Java programming questions
+                            with detailed explanations and solutions.
+
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Java</span>
+                            <span>Programming</span>
+                            <span>Education</span>
+
+                        </div>
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/cac-it-training-2026/java100-github-classroom2nd-milky245"
+                                target="_blank">
+
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- BLOG PREVIEW -->
+        <section class="section container">
+
+            <div class="section-title-wrapper reveal">
+
+                <p class="section-tag">
+                    BLOG
+                </p>
+
+                <h2 class="section-title">
+                    Latest Articles
+                </h2>
+
+            </div>
+
+            <div class="blog-preview-grid">
+
+                <article class="blog-card glass-card reveal">
+
+                    <img src="assets/images/blog/blog1.jpg"
+                        alt="blog image">
+
+                    <div class="blog-content">
+
+                        <p class="blog-date">
+                            May 2026
+                        </p>
+
+                        <h3>
+                            Understanding Transformer Architecture
+                        </h3>
+
+                        <a href="blog.html">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <article class="blog-card glass-card reveal">
+
+                    <img src="assets/images/blog/blog2.jpg"
+                        alt="blog image">
+
+                    <div class="blog-content">
+
+                        <p class="blog-date">
+                            May 2026
+                        </p>
+
+                        <h3>
+                            Diffusion Models Explained
+                        </h3>
+
+                        <a href="blog.html">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT CTA -->
+        <section class="section container contact-cta">
+
+            <div class="glass-card contact-box reveal">
+
+                <h2>
+                    Let's Build Something Great Together.
+                </h2>
+
+                <p>
+
+                    Open to collaboration,
+                    AI research,
+                    and engineering opportunities.
+
+                </p>
+
+                <a href="contact.html"
+                    class="btn-primary">
+
+                    Contact Me
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-left">
+
+                <h3>Xue Zhihan</h3>
+
+                <p>
+                    AI Learner · Researcher · Junior Developer
+                </p>
+
+            </div>
+
+            <div class="footer-right">
+
+                <div class="footer-social-icons">
+
+                    <!-- TODO:
+                    替换为你的 GitHub URL
+                    -->
+                    <a href="https://github.com/milky245"
+                        target="_blank">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                    <!-- TODO:
+                    替换为你的 LinkedIn URL
+                    -->
+                    <a href="www.linkedin.com/in/zhihan-xue-b9a13540b"
+                        target="_blank">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                    </a>
+
+                    <!-- TODO:
+                    替换为你的 Instagram URL
+                    -->
+                    <a href="https://www.instagram.com/milkyx245/"
+                        target="_blank">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <!-- TODO:
+                    替换为你的邮箱
+                    -->
+                    <a href="mailto:yourmail@example.com">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Xue Zhihan.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="js/particles.js"></script>
+
+</body>
+
+</html>

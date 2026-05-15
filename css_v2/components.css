@@ -1,0 +1,163 @@
+/* =========================================================
+   GLASS CARD
+========================================================= */
+
+.glass-card {
+
+    background:
+        rgba(255,255,255,0.05);
+
+    border:
+        1px solid rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(18px);
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 10px 40px rgba(0,0,0,0.35);
+
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.btn-primary,
+.btn-secondary {
+
+    position: relative;
+
+    overflow: hidden;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px 28px;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+
+}
+
+.btn-primary {
+
+    background:
+        linear-gradient(
+            90deg,
+            #7c3aed,
+            #06b6d4
+        );
+
+    color: white;
+
+}
+
+.btn-primary:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 30px rgba(124,58,237,0.35);
+
+}
+
+.btn-secondary {
+
+    border:
+        1px solid rgba(255,255,255,0.12);
+
+    background:
+        rgba(255,255,255,0.04);
+
+}
+
+.btn-secondary:hover {
+
+    background:
+        rgba(255,255,255,0.08);
+
+}
+
+/* =========================================================
+   SCROLL PROGRESS
+========================================================= */
+
+.scroll-progress {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    height: 3px;
+
+    width: 0%;
+
+    background:
+        linear-gradient(
+            90deg,
+            #7c3aed,
+            #06b6d4
+        );
+
+    z-index: 9999;
+
+}
+
+/* =========================================================
+   CUSTOM CURSOR
+========================================================= */
+
+.custom-cursor {
+
+    position: fixed;
+
+    width: 20px;
+    height: 20px;
+
+    border:
+        1px solid rgba(255,255,255,0.5);
+
+    border-radius: 50%;
+
+    pointer-events: none;
+
+    transform:
+        translate(-50%, -50%);
+
+    z-index: 9999;
+
+    transition:
+        transform 0.08s linear;
+
+}
+
+/* =========================================================
+   CARD HOVER
+========================================================= */
+
+.project-card,
+.blog-card,
+.glass-card {
+
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease;
+
+}
+
+.project-card:hover,
+.blog-card:hover,
+.glass-card:hover {
+
+    transform: translateY(-8px);
+
+    border-color:
+        rgba(124,58,237,0.4);
+
+}
