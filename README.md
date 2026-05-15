@@ -1,5 +1,8 @@
 # MyPortfolio
 
+### Xue Zhihan Personal Use
+### Xue Zhihan 個人用ポートフォリオ
+
 ## 日本語 (Japanese First)
 
 ### 1) コンセプト
